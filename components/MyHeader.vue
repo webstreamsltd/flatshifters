@@ -4,7 +4,7 @@
 
 <template>
     <div>
-        <div v-if="navIsOpen" class="fixed top-0 w-screen p-4 text-center shadow-xl bg-neutral-800 h-3/5">
+        <div v-if="navIsOpen" class="fixed top-0 w-screen p-6 text-center shadow-xl bg-neutral-800">
             <MobNav @close="navIsOpen = !navIsOpen" />
         </div>
         <div class="h-12 shadow-lg flex justify-between items-center p-4">

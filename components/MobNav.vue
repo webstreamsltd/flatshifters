@@ -26,10 +26,15 @@
                 </li>
                 <li class="hover:underline hover:underline-offset-4 hover:text-red-700">
                     <NuxtLink to="/contact" @click="emit('close')">
-                    Contact
-                </NuxtLink>
+                        Contact
+                    </NuxtLink>
                 </li>
             </ul>
         </div>
+        <NuxtLink to="/store">
+            <button class="border-2 border-red-700 rounded w-full p-2 mt-4 hover:bg-red-700 hover:text-neutral-800 font-bold italic" @click="emit('close')">
+                Shop Now
+            </button>
+        </NuxtLink>
     </div>
 </template>

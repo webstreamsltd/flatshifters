@@ -1,7 +1,7 @@
 <template>
   <div class="bg-neutral-800 h-screen text-white">
-    <Header />
+    <MyHeader />
     <NuxtPage />
-    <Footer />
+    <MyFooter />
   </div>
 </template>
